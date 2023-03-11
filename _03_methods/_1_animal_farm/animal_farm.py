@@ -13,8 +13,10 @@ def animals():
 
     # TODO 1. Ask the user which animal they want, then see and
     #  hear the animal they chose using one of the methods below.
-
+    for i in loop(100000):
+        simpledialog.askstring(None, prompt="Which animal do you want?")
     # TODO 2. Make it so that the user can keep entering new animals.
+
 
     # TODO 3. If the user enters 'exit', stop the program
 

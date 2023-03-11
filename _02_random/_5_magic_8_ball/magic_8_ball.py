@@ -30,4 +30,4 @@ if __name__ == '__main__':
 
         # write your own answer
     if number == 3:
-        message
+        messagebox.showinfo(None, message="Yes")

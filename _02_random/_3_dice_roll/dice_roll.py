@@ -3,9 +3,7 @@ Use a Random object to generate random integers so your code can roll different
 numbers on a dice.
 """
 import tkinter as tk
-from PIL import Image, ImageTk
-import random
-
+from PIL import Image, Im
 
 def get_random_dice_image():
     random_image = None
