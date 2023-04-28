@@ -18,19 +18,21 @@ def animals():
     # TODO 2. Make it so that the user can keep entering new animals.
         if answer == 'Cow':
             moo()
-        if answer == 'Duck':
+        elif answer == 'Duck':
             quack()
-        if answer == 'Dog':
+        elif answer == 'Dog':
             woof()
-        if answer == 'Cat':
+        elif answer == 'Cat':
             meow()
+        elif answer == 'Exit':
+            exit()
+
 
 
 
 
     # TODO 3. If the user enters 'exit', stop the program
-    if answer == 'exit':
-        end.answer
+
 
 
 
