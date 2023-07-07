@@ -27,12 +27,14 @@ def mousePressed():
     # variables you made in step 1
     global x
     global y
-    
+
+
     # 6. The get_distance_from_mouse() function below returns a number.
     # Set the value of your distance variable to the value returned
     # by the get_distance_from_mouse function. You will need to pass the
     # x and y location of your ellipse to this method.
-          
+
+
 
     # 7. Use an if statement to check if your distance variable is
     # less than the radius of the ellipse. If it is, set new values for
